@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/*!
+- * Slow-Buzz scss v0.1
+- * Copyright 2021 Alin Bumbes
+- */
+
+@import "scss/normalize";
+@import "scss/vars";
+@import "scss/layout";
+@import "scss/header";
+@import "scss/footer";
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(assets/font/Raleway-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(assets/font/Raleway-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
