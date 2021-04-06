@@ -24,6 +24,7 @@ header {
   grid-column-end: 5;
 }
 
+
 footer {
   display: flex;
   background-color: $dark-gray;
@@ -32,9 +33,9 @@ footer {
   min-height: 18.6rem;
 }
 
-.footer-wrap {
-  width: 128rem;
-  margin: 0 auto;
+.header-wrap, footer-wrap {
+  width: 100%;
+  margin: 0 3rem;
 }
 
 main.s-main {

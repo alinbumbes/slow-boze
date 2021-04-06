@@ -1,0 +1,135 @@
+@import "vars";
+
+.flx {
+  display: flex;
+}
+
+.flx-inline {
+  display: inline-flex;
+}
+
+.flx-reverse {
+  display: flex;
+}
+
+
+.flx-wrap {
+  flex-flow: wrap;
+  flex-wrap: wrap;
+}
+
+.flx-elem {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.flx-elem0 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.flx-elem-end {
+  align-self: flex-end;
+}
+
+.flx-just-end {
+  justify-content: flex-end;
+}
+
+.flx-just-evenly {
+  justify-content: space-evenly;
+}
+
+.flx-end {
+  align-items: flex-end;
+}
+
+.flx-col {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flx-col-top {
+  flex-direction: column;
+}
+
+.flx-center {
+  align-items: center;
+}
+
+.flx-equal-width {
+  flex-basis: 0;
+}
+
+.flx-0x {
+  flex-grow: 0;
+}
+
+.flx-2x {
+  flex-grow: 2;
+}
+
+.flx-just-center {
+  justify-content: center;
+}
+
+.flx-just-end {
+  justify-content: flex-end;
+}
+
+.flx-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.flx-wrap-50p {
+  flex: 1 1 50%;
+}
+
+//making this flex system react as responsive (sort of)
+
+.flx-xs, .flx-sm, .flx-md, .flx-lg, .flx-1340, .flx-xl {
+  display: block;
+}
+
+.flx-space-between {
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  .flx-xs {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .flx-sm {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .flx-md {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flx-lg {
+    display: flex;
+  }
+}
+
+@media (min-width: 1340px) {
+  .flx-1340 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1500px) {
+  .flx-xl {
+    display: flex;
+  }
+}
